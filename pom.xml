@@ -6,7 +6,7 @@
 
     <groupId>io.github.ZJU-ACES-ISE</groupId>
     <artifactId>chatunitest-starter</artifactId>
-    <version>1.2.0</version>
+    <version>1.4.0</version>
     <packaging>pom</packaging>
 
     <name>chatunitest-starter</name>
@@ -39,19 +39,13 @@
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
-            <version>5.3.0</version>
+            <version>3.8.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-junit-jupiter</artifactId>
-            <version>5.3.0</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-inline</artifactId>
-            <version>5.2.0</version>
+            <version>3.8.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -93,7 +87,7 @@
         <dependency>
             <groupId>net.bytebuddy</groupId>
             <artifactId>byte-buddy-agent</artifactId>
-            <version>1.14.7</version>
+            <version>1.14.4</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
